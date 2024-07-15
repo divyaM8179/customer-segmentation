@@ -19,7 +19,7 @@ def feature_engineering():
                 lower_limit,
                 data[value]
             ))
-    data.to_csv('customer_data_cleansed.csv', index=False)
+    data.to_csv('cleaned_data.csv', index=False)
     return data
 
 feature_engineering()
