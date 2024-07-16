@@ -46,7 +46,7 @@ import seaborn as sns
 #     return data
 a =[]
 def visualise_data():
-    data, numerical_features, categorical_features = data_preprocess()
+    data, numerical_features, categorical_features = preprocess_data()
     # fig = ff.create_distplot([data[c] for c in numerical_features], numerical_features, bin_size=.25, show_rug=False)
     # fig.show()
     data['sex'] = data['sex'].replace('male', 0)
