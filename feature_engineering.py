@@ -1,8 +1,8 @@
-from datavisualization import visualize_data
+from datavisualization import visualise_data
 import numpy as np
 
 def feature_engineering():
-    data = visualize_data()
+    data = visualise_data()
     # Outlier Treatment
     outliers_present = ["age", "income"]
     for value in outliers_present:
