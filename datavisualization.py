@@ -128,5 +128,3 @@ def visualise_data():
     #                 save_all=True, append_images=image_list, resolution=100.0)
     return data
 visualise_data()
-
-visualize_data()
